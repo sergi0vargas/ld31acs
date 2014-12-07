@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: ed566b1735d30f84899c01f59a2734fc
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: espina_curva_completa
+    21300002: espina_larga_2_completa
+    21300004: espina_larga_completa
+    21300006: espina_larga_0
+    21300008: espina_larga_1
+    21300010: espina_larga_2
+    21300012: espina_larga_2_0
+    21300014: espina_larga_2_1
+    21300016: espina_larga_2_2
+    21300018: espina_curva_0
+    21300020: espina_curva_1
+    21300022: espina_curva_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 500
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: espina_curva_completa
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1234
+        width: 2983
+        height: 1011
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: espina_larga_2_completa
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 676
+        width: 2828
+        height: 554
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: espina_larga_completa
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 2846
+        height: 554
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: espina_larga_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 824
+        height: 563
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: espina_larga_1
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 0
+        width: 963
+        height: 556
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: espina_larga_2
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 4
+        width: 1059
+        height: 545
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: espina_larga_2_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 665
+        width: 772
+        height: 557
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: espina_larga_2_1
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 665
+        width: 946
+        height: 560
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: espina_larga_2_2
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 671
+        width: 1064
+        height: 548
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: espina_curva_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1258
+        width: 905
+        height: 959
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: espina_curva_1
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1255
+        width: 861
+        height: 962
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: espina_curva_2
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 1260
+        width: 1195
+        height: 985
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: game
+  userData: 

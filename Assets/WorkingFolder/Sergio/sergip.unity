@@ -382,6 +382,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 521778215}
   - 108: {fileID: 521778214}
+  - 114: {fileID: 521778216}
   m_Layer: 0
   m_Name: Lampara_Personaje
   m_TagString: Untagged
@@ -438,6 +439,23 @@ Transform:
   - {fileID: 1414206750}
   m_Father: {fileID: 33262384}
   m_RootOrder: 0
+--- !u!114 &521778216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 521778213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ae0871d13cd9994cab48e1c722689ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxRange: 2.20000005
+  minRange: 1.79999995
+  stepRange: .00999999978
+  maxIntensity: 3
+  minIntensity: 1.5
+  stepIntensity: .00999999978
 --- !u!1001 &748907270
 Prefab:
   m_ObjectHideFlags: 0

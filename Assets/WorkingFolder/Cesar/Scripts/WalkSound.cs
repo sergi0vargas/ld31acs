@@ -4,7 +4,7 @@ using System.Collections;
 public class WalkSound : MonoBehaviour {
 
 	public AudioClip[] landSound;
-	private CharacterController cc;
+	private Rigidbody2D cc;
 	//private CharacterMotor cm;
 	//public float normalSpeed;
 	public float delayMoves;
@@ -15,14 +15,13 @@ public class WalkSound : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		cc = GetComponent<CharacterController>();
 		delay = delayMoves;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
-		if (cc.isGrounded & cc.velocity.magnitude > 0.1 & Time.time > next)
+		if (cc.velocity.magnitude > 0.1 & Time.time > next)
 		{
 			next = Time.time + delayMoves;
 			RaycastHit hit;

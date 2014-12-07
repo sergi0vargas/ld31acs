@@ -11,21 +11,21 @@ public class LightEfect : MonoBehaviour {
     private float timer = 0;
     public float intervaloLuz = 0.1f;
 
-    private Light light;
+    private Light luz;
 
 	// Use this for initialization
 	void Start () {
-        light = GetComponent<Light>();
+        luz = GetComponent<Light>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
+        
         timer += Time.deltaTime;
         if (timer >= intervaloLuz)
         {
-            light.range = Random.Range(minRange, maxRange);
-            light.intensity = Random.Range(minIntensity, maxIntensity);
+            luz.range = Random.Range(minRange, maxRange);
+            luz.intensity = Random.Range(minIntensity, maxIntensity);
             timer = 0;
         }
 	}

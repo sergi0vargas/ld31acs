@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 212: {fileID: 21200000}
+  - 60: {fileID: 6000000}
+  - 114: {fileID: 11400000}
+  - 61: {fileID: 6100000}
+  m_Layer: 0
+  m_Name: piedras_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: -.29477185, w: .955567658}
+  m_LocalPosition: {x: -3.0999999, y: -3.05999994, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!60 &6000000
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: -.0360485502, y: -.0875933394}
+      - {x: .0197350346, y: -.0661381111}
+      - {x: .144175336, y: -.0790112466}
+      - {x: .225705191, y: -.0790112466}
+      - {x: .281488776, y: -.0532649793}
+      - {x: .328690261, y: -.00606348412}
+      - {x: .38447386, y: .0797574148}
+      - {x: .410220116, y: .152705178}
+      - {x: .414511174, y: .187033534}
+      - {x: .418802202, y: .199906677}
+      - {x: .418802202, y: .277145475}
+      - {x: .388764888, y: .32434696}
+      - {x: .341563404, y: .328638017}
+      - {x: .272906691, y: .337220103}
+      - {x: .12701115, y: .337220103}
+      - {x: -.0832500458, y: .302891761}
+      - {x: -.156197801, y: .281436533}
+      - {x: -.237727657, y: .247108161}
+      - {x: -.284929156, y: .169869363}
+      - {x: -.340712726, y: .135540992}
+      - {x: -.422242582, y: .0540111437}
+      - {x: -.478026181, y: -.0403918438}
+      - {x: -.495190352, y: -.0875933394}
+      - {x: -.495190352, y: -.181996331}
+      - {x: -.465153039, y: -.22061573}
+      - {x: -.417951554, y: -.263526171}
+      - {x: -.396496326, y: -.280690342}
+      - {x: -.336421698, y: -.306436628}
+      - {x: -.272056013, y: -.306436628}
+      - {x: -.216272429, y: -.297854543}
+      - {x: -.186235115, y: -.280690342}
+      - {x: -.117578402, y: -.207742587}
+--- !u!61 &6100000
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 1.47000003, y: 1.86000001}
+  m_Center: {x: 0, y: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75498802ff0c6a4f86a329a7a0fddca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasKey: 0
+--- !u!212 &21200000
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 93970225d6dd4fd4e8c4c8cdfd6f81fc, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b0c8ec3bb5e62564a89beccf87dd4a2c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

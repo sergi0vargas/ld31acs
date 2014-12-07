@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: b0c8ec3bb5e62564a89beccf87dd4a2c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: piedras_0
+    21300002: piedras_1
+    21300004: piedras_2
+    21300006: piedras_3
+    21300008: piedras_4
+    21300010: piedras_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1000
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: piedras_0
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1425
+        width: 1282
+        height: 1025
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: piedras_1
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 1763
+        width: 417
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: piedras_2
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 1759
+        width: 493
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: piedras_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 155
+        width: 1411
+        height: 1244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: piedras_4
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 991
+        width: 446
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: piedras_5
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 90
+        width: 1386
+        height: 1249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: game
+  userData: 

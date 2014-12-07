@@ -5,8 +5,6 @@ public class WalkSound : MonoBehaviour {
 
 	public AudioClip[] landSound;
 	private Rigidbody2D cc;
-	//private CharacterMotor cm;
-	//public float normalSpeed;
 	public float delayMoves;
 	private float delay;
 	private float next;
@@ -14,14 +12,14 @@ public class WalkSound : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		cc = this.gameObject.GetComponent<Rigidbody2D>();
 		delay = delayMoves;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
-		if (cc.velocity.magnitude > 0.1 & Time.time > next)
+		if (cc.velocity.magnitude > 0.1f & Time.time > next)
 		{
 			next = Time.time + delayMoves;
 			RaycastHit hit;
@@ -33,6 +31,5 @@ public class WalkSound : MonoBehaviour {
 			}
 		}
 		delayMoves = delay;
-		return;
 	}
 }

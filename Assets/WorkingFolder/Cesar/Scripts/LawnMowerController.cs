@@ -3,7 +3,6 @@ using System.Collections;
 
 public class LawnMowerController : MonoBehaviour {
 
-	private int type;
 	private Vector2 velocity;
 
 	// Use this for initialization
@@ -27,20 +26,13 @@ public class LawnMowerController : MonoBehaviour {
 	{
 		float probability = Random.Range (0f, 1f);
 		if (probability >= 0 && probability < 0.65f) 
-		{
-			type = 0;
 			GetComponent<SpriteRenderer> ().color = Color.yellow;
-		}
-		else if (probability >= 0.65f && probability < 0.9f) 
-		{
-			type = 1;
+	
+		else if (probability >= 0.65f && probability < 0.9f)
 			GetComponent<SpriteRenderer> ().color = Color.cyan;
-		}
-		else if (probability >= 0.9f) 
-		{
-			type = 2;
+
+		else if (probability >= 0.9f)
 			GetComponent<SpriteRenderer> ().color = Color.magenta;
-		}
 	}
 	
 	// Update is called once per frame

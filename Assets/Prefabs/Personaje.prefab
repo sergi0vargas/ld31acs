@@ -14,6 +14,7 @@ GameObject:
   - 50: {fileID: 5000000}
   - 114: {fileID: 11400002}
   - 82: {fileID: 8200000}
+  - 95: {fileID: 9500000}
   m_Layer: 0
   m_Name: Personaje
   m_TagString: Untagged
@@ -30,6 +31,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400002}
   - 108: {fileID: 10800000}
+  - 114: {fileID: 11400004}
   m_Layer: 0
   m_Name: Lampara_Personaje
   m_TagString: Untagged
@@ -60,7 +62,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: .275050104, w: .961429894}
   m_LocalPosition: {x: -5.40999985, y: 2.96000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -176,6 +178,21 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!95 &9500000
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cff24e6152de1ae4db1d8a82eb884656, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!108 &10800000
 Light:
   m_ObjectHideFlags: 1
@@ -241,6 +258,23 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ca27f6fa09dc17045bff9a21e7d383a1, type: 3}
   - {fileID: 8300000, guid: 9ca3ad54077e9d941ac0d64eb42d50dd, type: 3}
   delayMoves: .600000024
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ae0871d13cd9994cab48e1c722689ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxRange: 2.20000005
+  minRange: 1.79999995
+  stepRange: .00999999978
+  maxIntensity: 3
+  minIntensity: 1.5
+  stepIntensity: .00999999978
 --- !u!198 &19800000
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -1345,7 +1379,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 315235ed38757374cb3658ecb9d7ddc0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5fa1607be4952f74da611e7c8434412c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:

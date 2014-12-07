@@ -4,8 +4,9 @@ using System.Collections;
 public class FlashBang : MonoBehaviour {
 
     public float flashBangTime = 0.5f;
-    public float intensity = 1;
+    public float intensity = .5f;
     private Light luz;
+
     
     void Start()
     {
@@ -17,7 +18,17 @@ public class FlashBang : MonoBehaviour {
     {
         if (col.gameObject.tag.Equals("Player"))
         {
-
+            Debug.Log("entro1");
+            StartCoroutine("DoFlashbang");
         }
+    }
+
+    IEnumerator DoFlashbang()
+    {
+        Debug.Log("entro2");
+        luz.intensity = intensity;
+        yield return new WaitForSeconds(flashBangTime);
+        Debug.Log("entro3");
+        luz.intensity = 0;
     }
 }

@@ -17,10 +17,10 @@ public class PlayerController : MonoBehaviour {
     private bool noMovVertical;
 
 	// Use this for initialization
-	void Start () {
-
+    void Start()
+    {
         anim = GetComponent<Animator>();
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {

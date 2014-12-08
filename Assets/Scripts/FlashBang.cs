@@ -7,7 +7,7 @@ public class FlashBang : MonoBehaviour {
     public int timeDisabled = 30;
     public float intensity = .5f;
     private Light luz;
-    private bool active = true;
+    private bool isActive = true;
     
     void Start()
     {
@@ -17,7 +17,7 @@ public class FlashBang : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag.Equals("Player") && active)
+        if (col.gameObject.tag.Equals("Player") && isActive)
         {
             StartCoroutine("DoFlashbang");
         }
@@ -33,8 +33,8 @@ public class FlashBang : MonoBehaviour {
 
     IEnumerator Disable()
     {
-        active = false;
+        isActive = false;
         yield return new WaitForSeconds(timeDisabled);
-        active = true;
+        isActive = true;
     }
 }

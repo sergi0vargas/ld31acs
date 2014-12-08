@@ -13,21 +13,25 @@ public class HasTheKey : MonoBehaviour {
             {
                 if (hasKey)
                 {
-                    StartCoroutine("CambiaTexto", "Found a Key");
+                    StartCoroutine(CambiaTexto("Found a Key",  true));
                 }
                 else
                 {
-                    StartCoroutine("CambiaTexto", "Nothing here...");
+                    StartCoroutine(CambiaTexto("Nothing here...", false));
                 }
             }
         }
 	}
 
-    IEnumerator CambiaTexto(string txt)
+    IEnumerator CambiaTexto(string txt, bool activarTrofeo)
     {
-        GameManager.manager.posicionTextoFlotante.position = Camera.main.WorldToScreenPoint(transform.position);
-        GameManager.manager.textoFlotante.text = txt;
+        GameManager.manager.posTxtFlotante.position = Camera.main.WorldToScreenPoint(transform.position);
+        GameManager.manager.txtFlotante.text = txt;
         yield return new WaitForSeconds(1);
-        GameManager.manager.textoFlotante.text = "";
+        GameManager.manager.txtFlotante.text = "";
+        if (activarTrofeo)
+        {
+            GameManager.manager.ActivarTrofeo();
+        }
     }
 }

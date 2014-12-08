@@ -90,8 +90,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerLife: 100
+  damage: 25
   txtFlotante: {fileID: 0}
   imgTrofeo: {fileID: 0}
+  lifeSlider: {fileID: 0}
   posTxtFlotante: {fileID: 0}
 --- !u!124 &12400000
 Behaviour:

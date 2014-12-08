@@ -8,16 +8,14 @@ public class LawnMowerController : MonoBehaviour {
 	// Use this for initialization
 	void Start() 
 	{
-		Vector3 randomPosition = new Vector3(Random.Range(-8f, 8f),-6,0);
-		Vector3 randomScale = Vector3.one * Random.Range(0.5f, 2f);
-		
-		transform.localScale = randomScale;
+		Vector3 randomPosition = new Vector3(Random.Range(-7f, 7f), -4.5f, 0);
 		transform.position = randomPosition;
-		
+
 		velocity.x = Random.Range (-3, 3);
 		velocity.y = Random.Range (0.5f, 4);
-		
-		rigidbody2D.velocity = velocity;
+
+		Rigidbody2D rb2d = this.gameObject.AddComponent<Rigidbody2D>();
+		rb2d.velocity = velocity;
 		
 		TipoPodadora();
 	}
@@ -26,7 +24,7 @@ public class LawnMowerController : MonoBehaviour {
 	{
 		float probability = Random.Range (0f, 1f);
 		if (probability >= 0 && probability < 0.65f) 
-			GetComponent<SpriteRenderer> ().color = Color.yellow;
+			GetComponent<SpriteRenderer> ().color = Color.red;
 	
 		else if (probability >= 0.65f && probability < 0.9f)
 			GetComponent<SpriteRenderer> ().color = Color.cyan;
@@ -38,5 +36,8 @@ public class LawnMowerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+		velocity.x = Random.Range (-3, 3);
+		velocity.y = Random.Range (0.5f, 4);
+		transform.Translate (velocity * Time.deltaTime);
 	}
 }

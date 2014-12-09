@@ -31,6 +31,7 @@ public class HasTheKey : MonoBehaviour {
         GameManager.manager.txtFlotante.text = "";
         if (activarTrofeo)
         {
+            GameManager.manager.hasTheKey = true;
             GameManager.manager.ActivarTrofeo();
         }
     }

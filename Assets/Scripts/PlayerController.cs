@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour {
     private bool noMovHorizontal;
     private bool noMovVertical;
 
+
 	// Use this for initialization
     void Start()
     {
@@ -40,9 +41,17 @@ public class PlayerController : MonoBehaviour {
     void Animaciones()
     {
         if (input.magnitude != 0)
+        {
+            if (!audio.isPlaying)
+                audio.Play();   
             anim.SetBool("Walking", true);
+        }
         else
+        {
+            if (audio.isPlaying)
+                audio.Stop();
             anim.SetBool("Walking", false);
+        }
     }
 
     void RotacionDelSprite()

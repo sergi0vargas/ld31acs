@@ -1,7 +1,9 @@
 fileFormatVersion: 2
-guid: 79cd651fb8a5f41429db0363d61594b7
+guid: b5ecd74df7ce33a41b59e22a822c2e37
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: hoyos_0
+    21300002: hoyos_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -25,23 +27,43 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1000
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: hoyos_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 104
+        width: 1621
+        height: 1779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hoyos_1
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 21
+        width: 1790
+        height: 1962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -8,6 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: Escenario
   m_TagString: Untagged
@@ -130,7 +131,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100016
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -138,9 +139,11 @@ GameObject:
   - 4: {fileID: 400016}
   - 212: {fileID: 21200008}
   - 68: {fileID: 6800006}
+  - 61: {fileID: 6100000}
+  - 114: {fileID: 11400002}
   m_Layer: 0
-  m_Name: espina_larga_2_0
-  m_TagString: Untagged
+  m_Name: Puerta
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -288,7 +291,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400034}
   m_Layer: 0
-  m_Name: LimiteIzquierda
+  m_Name: LimiteDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,6 +364,7 @@ Transform:
   - {fileID: 400004}
   - {fileID: 400002}
   - {fileID: 400026}
+  - {fileID: 400016}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &400002
@@ -376,7 +380,6 @@ Transform:
   - {fileID: 400006}
   - {fileID: 400008}
   - {fileID: 400014}
-  - {fileID: 400016}
   m_Father: {fileID: 400000}
   m_RootOrder: 4
 --- !u!4 &400004
@@ -461,12 +464,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100016}
-  m_LocalRotation: {x: 0, y: 0, z: -1, w: -4.37113883e-08}
-  m_LocalPosition: {x: 7.17000008, y: -5.67000008, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8, y: -4.76000023, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400002}
-  m_RootOrder: 3
+  m_Father: {fileID: 400000}
+  m_RootOrder: 6
 --- !u!4 &400018
 Transform:
   m_ObjectHideFlags: 1
@@ -617,6 +620,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 400034}
   m_RootOrder: 2
+--- !u!61 &6100000
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 1.5, y: 1.5}
+  m_Center: {x: -.310000002, y: .899999976}
 --- !u!68 &6800000
 EdgeCollider2D:
   m_ObjectHideFlags: 1
@@ -663,8 +677,8 @@ EdgeCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Points:
-  - {x: -.772000015, y: -.216712534}
-  - {x: .663643777, y: -.216712505}
+  - {x: -1.24991512, y: .333296299}
+  - {x: .63093853, y: .523751259}
 --- !u!68 &6800008
 EdgeCollider2D:
   m_ObjectHideFlags: 1
@@ -820,6 +834,31 @@ Light:
   m_ShadowAngle: 0
   m_IndirectIntensity: 1
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09210d2101cf9ca4fbea4abc40b4dff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lawnMowerPrefab: {fileID: 0}
+  lawnMowerQuantity: 0
+  timeBegin: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ccfaafe2f39e94d97df70e99d49a40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -927,8 +966,8 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300012, guid: ed566b1735d30f84899c01f59a2734fc, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300002, guid: b5ecd74df7ce33a41b59e22a822c2e37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21200010
 SpriteRenderer:

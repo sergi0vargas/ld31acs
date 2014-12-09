@@ -7,11 +7,7 @@ public class LawnMowerGenerator : MonoBehaviour {
 	public int lawnMowerQuantity;
 	public int timeBegin;
 
-	// Use this for initialization
-	void Start () {
 
-		Invoke("GenerateLawnMower", timeBegin);
-	}
 
 	public void GenerateLawnMower ()
 	{	

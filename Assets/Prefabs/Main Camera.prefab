@@ -11,8 +11,9 @@ GameObject:
   - 20: {fileID: 2000000}
   - 92: {fileID: 9200000}
   - 124: {fileID: 12400000}
-  - 81: {fileID: 8100000}
   - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  - 82: {fileID: 8200000}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -27,7 +28,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: -.230000004, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -52,7 +53,7 @@ Camera:
   far clip plane: 100
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.12523746
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -64,13 +65,64 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
---- !u!81 &8100000
-AudioListener:
+--- !u!82 &8200000
+AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 69d20091e18906644b6fe6dbac085325, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 154
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!92 &9200000
 Behaviour:
   m_ObjectHideFlags: 1
@@ -89,12 +141,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5de2c92695bd93b42aae3ecbe6a46688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hasTheKey: 0
+  isDead: 0
+  finish: 0
   playerLife: 100
   damage: 25
+  dificultad: 1
+  dificultadMaxima: 4
   txtFlotante: {fileID: 0}
   imgTrofeo: {fileID: 0}
   lifeSlider: {fileID: 0}
   posTxtFlotante: {fileID: 0}
+  uiGame: {fileID: 0}
+  uiStart: {fileID: 0}
+  uiEnd: {fileID: 0}
+  txtDificultad: {fileID: 0}
+  txtDificultad1: {fileID: 0}
+  enemigos: {fileID: 0}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09210d2101cf9ca4fbea4abc40b4dff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lawnMowerPrefab: {fileID: 0}
+  lawnMowerQuantity: 0
+  timeBegin: 0
 --- !u!124 &12400000
 Behaviour:
   m_ObjectHideFlags: 1

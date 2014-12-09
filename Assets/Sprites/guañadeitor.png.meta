@@ -1,0 +1,608 @@
+fileFormatVersion: 2
+guid: 19926ca795fa3844b9e0a4ad8dd0fae7
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "gua\xF1adeitor_0"
+    21300002: "gua\xF1adeitor_1"
+    21300004: "gua\xF1adeitor_2"
+    21300006: "gua\xF1adeitor_3"
+    21300008: "gua\xF1adeitor_4"
+    21300010: "gua\xF1adeitor_5"
+    21300012: "gua\xF1adeitor_6"
+    21300014: "gua\xF1adeitor_7"
+    21300016: "gua\xF1adeitor_8"
+    21300018: "gua\xF1adeitor_9"
+    21300020: "gua\xF1adeitor_10"
+    21300022: "gua\xF1adeitor_11"
+    21300024: "gua\xF1adeitor_12"
+    21300026: "gua\xF1adeitor_13"
+    21300028: "gua\xF1adeitor_14"
+    21300030: "gua\xF1adeitor_15"
+    21300032: "gua\xF1adeitor_16"
+    21300034: "gua\xF1adeitor_17"
+    21300036: "gua\xF1adeitor_18"
+    21300038: "gua\xF1adeitor_19"
+    21300040: "gua\xF1adeitor_20"
+    21300042: "gua\xF1adeitor_21"
+    21300044: "gua\xF1adeitor_22"
+    21300046: "gua\xF1adeitor_23"
+    21300048: "gua\xF1adeitor_24"
+    21300050: "gua\xF1adeitor_25"
+    21300052: "gua\xF1adeitor_26"
+    21300054: "gua\xF1adeitor_27"
+    21300056: "gua\xF1adeitor_28"
+    21300058: "gua\xF1adeitor_29"
+    21300060: "gua\xF1adeitor_30"
+    21300062: "gua\xF1adeitor_31"
+    21300064: "gua\xF1adeitor_32"
+    21300066: "gua\xF1adeitor_33"
+    21300068: "gua\xF1adeitor_34"
+    21300070: "gua\xF1adeitor_35"
+    21300072: "gua\xF1adeitor_36"
+    21300074: "gua\xF1adeitor_37"
+    21300076: "gua\xF1adeitor_38"
+    21300078: "gua\xF1adeitor_39"
+    21300080: "gua\xF1adeitor_40"
+    21300082: "gua\xF1adeitor_41"
+    21300084: "gua\xF1adeitor_42"
+    21300086: "gua\xF1adeitor_43"
+    21300088: "gua\xF1adeitor_44"
+    21300090: "gua\xF1adeitor_45"
+    21300092: "gua\xF1adeitor_46"
+    21300094: "gua\xF1adeitor_47"
+    21300096: "gua\xF1adeitor_48"
+    21300098: TITULO1
+    21300100: "gua\xF1adeitor_50"
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1000
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: "gua\xF1adeitor_0"
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1794
+        width: 140
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_1"
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1549
+        width: 251
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_2"
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1549
+        width: 219
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_3"
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1555
+        width: 256
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_4"
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1555
+        width: 227
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_5"
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 1555
+        width: 257
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_6"
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1555
+        width: 221
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_7"
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1555
+        width: 163
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_8"
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 1555
+        width: 108
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_9"
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 1555
+        width: 190
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_10"
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 1549
+        width: 268
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_11"
+      rect:
+        serializedVersion: 2
+        x: 2763
+        y: 1555
+        width: 220
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_12"
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1377
+        width: 131
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_13"
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1147
+        width: 236
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_14"
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1147
+        width: 203
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_15"
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1150
+        width: 239
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_16"
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1150
+        width: 213
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_17"
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1150
+        width: 239
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_18"
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1150
+        width: 210
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_19"
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 1150
+        width: 154
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_20"
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1150
+        width: 99
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_21"
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 1150
+        width: 177
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_22"
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1147
+        width: 251
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_23"
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 1150
+        width: 207
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_24"
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 908
+        width: 91
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_25"
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 549
+        width: 125
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_26"
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 549
+        width: 131
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_27"
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 549
+        width: 134
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_28"
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 549
+        width: 128
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_29"
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 549
+        width: 131
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_30"
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 549
+        width: 134
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_31"
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 549
+        width: 114
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_32"
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 549
+        width: 70
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_33"
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 549
+        width: 131
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_34"
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 549
+        width: 125
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_35"
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 549
+        width: 137
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_36"
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 363
+        width: 140
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_37"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 232
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_38"
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 230
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_39"
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 141
+        width: 122
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_40"
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 42
+        width: 140
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_41"
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 141
+        width: 123
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_42"
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 4
+        width: 221
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_43"
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 4
+        width: 213
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_44"
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 4
+        width: 78
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_45"
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 4
+        width: 233
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_46"
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 39
+        width: 218
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_47"
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 171
+        width: 102
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_48"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1545
+        width: 2839
+        height: 268
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TITULO1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1523
+        width: 2833
+        height: 322
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "gua\xF1adeitor_50"
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 0
+        width: 996
+        height: 1308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

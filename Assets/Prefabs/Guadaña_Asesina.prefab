@@ -45,8 +45,9 @@ GameObject:
   - 212: {fileID: 21200004}
   - 61: {fileID: 6100000}
   - 82: {fileID: 8200000}
-  - 114: {fileID: 11400000}
   - 114: {fileID: 11400002}
+  - 61: {fileID: 6100002}
+  - 50: {fileID: 5000000}
   m_Layer: 0
   m_Name: "Guada\xF1a_Asesina"
   m_TagString: Untagged
@@ -85,13 +86,28 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 3.88000011, y: .0799999982, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
   - {fileID: 400002}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5000000
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!61 &6100000
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -103,6 +119,17 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1.28122282, y: 1.44739962}
   m_Center: {x: 0, y: .428225756}
+--- !u!61 &6100002
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 1.57000005, y: 1.58000004}
+  m_Center: {x: 0, y: .428225756}
 --- !u!82 &8200000
 AudioSource:
   m_ObjectHideFlags: 1
@@ -113,16 +140,16 @@ AudioSource:
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: e2b49915720364e49b7aec21fedae19b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .5
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 1.5
+  MaxDistance: 7
   Pan2D: .5
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -191,17 +218,6 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e31033d1ebdb1b744863128c7b64ce8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -213,6 +229,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1d810836cbf6b48aabe847b37681fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 250
+  maxTiempoCambio: 6
+  minTiempoCambio: 2
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
